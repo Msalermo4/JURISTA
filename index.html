@@ -1,1 +1,15 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Case Law Library</title>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>🔍 Search Case Law</h1>
+  <input type="text" id="query" placeholder="Enter keywords..." />
+  <button onclick="searchCases(document.getElementById('query').value)">Search</button>
+  <div id="results"></div>
+</body>
+</html>
